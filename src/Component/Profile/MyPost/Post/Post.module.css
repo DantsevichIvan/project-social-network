@@ -1,0 +1,47 @@
+.post {
+    border: 2px solid burlywood;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.infoPost {
+    display: flex;
+    flex-direction: column;
+    /*padding:10px;*/
+
+}
+
+.item img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+    /*padding: 10px;*/
+}
+
+.text {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+.postLike {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.commentDivided {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+}
