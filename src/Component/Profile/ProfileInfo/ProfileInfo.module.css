@@ -1,0 +1,28 @@
+.content {
+    grid-area: c;
+    background-color:blue;
+
+}
+.mainImg {
+    background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    position: relative;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: -65px;
+    right: 42%;
+}
+.userInfo img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 5px solid white ;
+}
