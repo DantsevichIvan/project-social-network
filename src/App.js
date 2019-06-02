@@ -11,14 +11,14 @@ import News from "./Component/News/News";
 import Music from "./Component/Music/Music";
 import Settings from "./Component/Settings/Settings";
 
-const App = () => {
+const App = (props) => {
     return (
         <BrowserRouter>
             <div className="app-wrapper">
                 <Header/>
                 <Navbar/>
                 <div>
-                    <Route path="/profile" component={Profile}/>
+                    <Route path="/profile" render={()=> <Profile profileState={props.appState} />}/>
                     <Route path="/dialogs" component={Dialogs}/>
                     <Route path="/news" component={News}/>
                     <Route path="/music" component={Music}/>

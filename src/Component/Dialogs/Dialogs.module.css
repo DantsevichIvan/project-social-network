@@ -1,18 +1,10 @@
 .dialogs {
     display: grid;
-    background-color: orange;
+    /*background-color: orange;*/
     grid-template-columns: 3fr 10fr;
 
 }
-
-.dialogsItem {
-    padding: 30px;
-}
-
-.messages {
-    padding: 30px;
-}
-
-.messages .message {
-
+.heading{
+    padding: 15px;
+    border-bottom: 1px solid;
 }

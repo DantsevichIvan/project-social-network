@@ -1,0 +1,23 @@
+.addpost {
+    border: 2px solid burlywood;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.item img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 3px solid white;
+    /*padding: 10px;*/
+}
+.item{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+

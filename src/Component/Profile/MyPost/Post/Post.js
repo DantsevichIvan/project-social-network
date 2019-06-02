@@ -5,15 +5,15 @@ const Post = (props) => {
     return (
         <div className={s.post}>
             <div className={s.item}>
-                <img src="https://pp.userapi.com/c845420/v845420985/be0ee/jOcHTD-YR7g.jpg"/>
+                <img src={props.post_information.ProfilePage.avatar}/>
                 <div className={s.infoPost}>
-                    <span>Name</span>
-                    <span>Span date</span>
+                    <span>{props.post_information.ProfilePage.name}</span>
+                    <span>My first post</span>
                 </div>
             </div>
             <div className={s.text}>
                 <span>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.
+                    My first post
                 </span>
             </div>
             <div className={s.postLike}>

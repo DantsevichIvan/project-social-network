@@ -1,4 +1,4 @@
-.title{
+.title {
     height: 50px;
     display: flex;
     justify-content: center;
@@ -6,15 +6,16 @@
     border-bottom: 1px solid;
 }
 
-.userIntro{
-    border: 5px solid red;
-
+.userIntro {
+    border: 2px solid red;
+    min-width: 200px;
 }
 
-.userInfo{
+.userInfo {
     padding: 10px;
     display: block;
 }
-.infoTitle{
+
+.infoTitle {
     display: block;
 }

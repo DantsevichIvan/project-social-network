@@ -2,13 +2,13 @@ import React, {Component} from 'react';
 import s from './MyPost.module.css';
 import Post from "./Post/Post";
 
-const MyPost = () => {
-    return <div>
-        <div>
+const MyPost = (props) => {
+    return (
+        <div><Post post_information={props.posts_information}/></div>
+    )
 
-        </div>
-        <Post messeges="My new post" likes="25"/>
-        {/*<Post messeges="My  first post" likes="30"/>*/}
-    </div>
+
+    {/*<Post messeges="My  first post" likes="30"/>*/
+    }
 };
 export default MyPost;
