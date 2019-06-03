@@ -3,12 +3,13 @@ import s from './MyPost.module.css';
 import Post from "./Post/Post";
 
 const MyPost = (props) => {
+    let posts = props.posts_information.ProfilePage.posts.map((el) => {
+        return <div><Post post_information={props.posts_information} posts={el}/></div>
+    });
     return (
-        <div><Post post_information={props.posts_information}/></div>
+        <div>
+            {posts}
+        </div>
     )
-
-
-    {/*<Post messeges="My  first post" likes="30"/>*/
-    }
 };
 export default MyPost;

@@ -8,20 +8,20 @@ const Post = (props) => {
                 <img src={props.post_information.ProfilePage.avatar}/>
                 <div className={s.infoPost}>
                     <span>{props.post_information.ProfilePage.name}</span>
-                    <span>My first post</span>
+                    <span>{props.posts.span_date}</span>
                 </div>
             </div>
             <div className={s.text}>
                 <span>
-                    My first post
+                    {props.posts.text_post}
                 </span>
             </div>
             <div className={s.postLike}>
-                <span>{props.likes} like</span>
+                <span>{props.posts.likes} like</span>
 
                 <div className={s.commentDivided}>
-                    <span>com 4</span>
-                    <span>divi 1</span>
+                    <span>com {props.posts.comments}</span>
+                    <span>divi {props.posts.divi}</span>
                 </div>
             </div>
         </div>

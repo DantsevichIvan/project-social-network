@@ -17,8 +17,8 @@ const Profile = (props) => {
                 <MyPost posts_information={props.profileState}/>
             </div>
             <div>
-                <ProfilePhotos/>
-                <Friends/>
+                <ProfilePhotos photos={props.profileState}/>
+                <Friends friends={props.profileState}/>
             </div>
 
         </div>
