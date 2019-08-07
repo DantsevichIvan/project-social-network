@@ -5,9 +5,9 @@ const Post = (props) => {
     return (
         <div className={s.post}>
             <div className={s.item}>
-                <img src={props.post_information.ProfilePage.avatar}/>
+                <img src={props.post_information.avatar}/>
                 <div className={s.infoPost}>
-                    <span>{props.post_information.ProfilePage.name}</span>
+                    <span>{props.post_information.name}</span>
                     <span>{props.posts.span_date}</span>
                 </div>
             </div>

@@ -1,10 +1,19 @@
-.dialogs {
-    display: grid;
-    /*background-color: orange;*/
-    grid-template-columns: 3fr 10fr;
+.general_block {
+    padding: 10px;
+    border: solid 1px;
+}
 
+.heading {
+    padding: 10px;
+    border-bottom: 2px solid;
 }
-.heading{
-    padding: 15px;
-    border-bottom: 1px solid;
+
+.block_dialogs {
+    display: grid;
+    grid-template-columns: 3fr 10fr;
 }
+
+.dialogs {
+}
+
+

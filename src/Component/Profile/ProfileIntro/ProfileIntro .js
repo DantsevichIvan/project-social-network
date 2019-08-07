@@ -13,13 +13,13 @@ const ProfileIntro = (props) => {
             </div>
             <div className={s.userInfo}>
                 <span className={s.infoTitle}>Favourite TV Shows:</span>
-                {props.intro.ProfilePage.tv_show.map((el)=>{
+                {props.intro.tv_show.map((el)=>{
                     return <div><span className="text">{el}</span></div>
                 })}
             </div>
             <div className={s.userInfo}>
                 <span className={s.infoTitle}>Favourite Music Bands/Artists:</span>
-                {props.intro.ProfilePage.favourite_music_bands.map((el)=>{
+                {props.intro.favourite_music_bands.map((el)=>{
                     return <div><span className="text">{el}</span></div>
                 })}
             </div>

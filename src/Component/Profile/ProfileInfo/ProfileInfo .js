@@ -5,9 +5,9 @@ const ProfileInfo = (props) => {
     return (
         <div className={s.mainImg}>
             <div className={s.userInfo}>
-                <img src={props.info.ProfilePage.avatar}/>
-                <div>{props.info.ProfilePage.name}</div>
-                <div>{props.info.ProfilePage.city}</div>
+                <img src={props.info.avatar}/>
+                <div>{props.info.name}</div>
+                <div>{props.info.city}</div>
             </div>
     </div>)
 };
