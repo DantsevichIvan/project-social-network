@@ -2,18 +2,19 @@ import React, {Component} from 'react';
 import s from './Post.module.css';
 
 const Post = (props) => {
+    let post_info = props.posts
     return (
         <div className={s.post}>
             <div className={s.item}>
-                <img src={props.post_information.avatar}/>
+                <img src={post_info.avatar}/>
                 <div className={s.infoPost}>
-                    <span>{props.post_information.name}</span>
-                    <span>{props.posts.span_date}</span>
+                    <span>{post_info.name}</span>
+                    <span>{post_info.span_date}</span>
                 </div>
             </div>
             <div className={s.text}>
                 <span>
-                    {props.posts.text_post}
+                    {post_info.text_post}
                 </span>
             </div>
             <div className={s.postLike}>

@@ -60,18 +60,43 @@ const initState = {
 const ProfileReducer = (state = initState, action) => {
     switch (action.type) {
         case GET_STATE : {
-            debugger
             return {
                 ...state
             }
         }
         case ADD_POST: {
-            return {}
+            let newPost = {
+                id: 3,
+                text_post: state.ProfilePage.newPostText,
+                likes: 0,
+                span_date: "12.00",
+                comments: 0,
+                divi: 0
+            };
+            let stateCopy = {
+                // ...state,
+                ProfilePage : {
+                    ...state.ProfilePage,
+                    // ...state.ProfilePage.posts,
+                    posts: [...state.ProfilePage.posts, newPost],
+                    newPostText: ''
+                },
 
+            };
+            return stateCopy
+
+
+            // return Object.assign({},state, {
+            //     posts: [...state.ProfilePage.posts, newPost]
+            // })
         }
         case UPDATE_NEW_POST_TEXT: {
-            return {}
-
+            return {
+                ProfilePage: {
+                    ...state.ProfilePage,
+                    newPostText: action.newText
+                }
+            }
         }
         default:
             return {
