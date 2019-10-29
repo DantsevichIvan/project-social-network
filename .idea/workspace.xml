@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15bc5ded-854b-4e0f-bd4a-e2e84ded45a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/Profile/MyPost/PostComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/DialoguesReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/Dialogues_Actoin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Users/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Users/Users.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Users/UsersContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/UsersReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Dialogs/Dialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Profile/AddPost/AddPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/AddPost/AddPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Profile/MyPost/MyPost .js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/MyPost/MyPost .js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Profile/MyPost/Post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/MyPost/Post/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Profile/Profile .js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/Profile .js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Profile/ProfileIntro/ProfileIntro .js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/ProfileIntro/ProfileIntro .js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/ProfileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ProfileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Navbar/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +46,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Component/Users" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,11 +63,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Users" />
       <recent name="C:\ivan-dansevitch\project-big\react-project\src\redux" />
       <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Profile\AddPost" />
       <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Profile\ProfileIntro" />
       <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Profile\ProfileInfo" />
-      <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Settings" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,7 +127,10 @@
       <workItem from="1565803628747" duration="4645000" />
       <workItem from="1566119089513" duration="30000" />
       <workItem from="1572120599392" duration="5410000" />
-      <workItem from="1572164729712" duration="6086000" />
+      <workItem from="1572164729712" duration="6802000" />
+      <workItem from="1572265277221" duration="1216000" />
+      <workItem from="1572277549281" duration="600000" />
+      <workItem from="1572346105498" duration="18483000" />
     </task>
     <servers />
   </component>

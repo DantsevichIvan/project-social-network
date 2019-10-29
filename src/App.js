@@ -9,7 +9,8 @@ import {Route} from "react-router-dom";
 import News from "./Component/News/News";
 import Music from "./Component/Music/Music";
 import Settings from "./Component/Settings/Settings";
-import {updateNewPostText} from "./State";
+// import {updateNewPostText} from "./State";
+import UsersContainer from "./Component/Users/UsersContainer";
 
 const App = (props) => {
     console.log(props)
@@ -20,6 +21,7 @@ const App = (props) => {
                 <div>
                     <Route path="/profile" component={Profile}/>
                     <Route path="/dialogs" component={Dialogs}/>
+                    <Route path="/users" component={UsersContainer}/>
                     {/*<Route path="/dialogs" render={()=> <Dialogs dialogsPage={props.state.dialogsPage}/> }/>*/}
                     <Route path="/news" component={News}/>
                     <Route path="/music" component={Music}/>
