@@ -7,7 +7,7 @@ import UsersReducer from "./redux/UsersReducer";
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const store = createStore(combineReducers({
-    profile: ProfileReducer,
+    profilePage: ProfileReducer,
     dialogues: DialoguesReducer,
     usersPage: UsersReducer
 }), composeEnhancers(applyMiddleware(thunkMiddleware)));

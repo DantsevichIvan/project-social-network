@@ -1,11 +1,12 @@
 export const ADD_POST = 'RECENTCOMMENTS::ADD_POST';
 export const UPDATE_NEW_POST_TEXT = 'RECENTCOMMENTS::UPDATE_NEW_POST_TEXT';
-export const GET_STATE = 'RECENTCOMMENTS::GET_STATE';
+export const SET_USER_PROFILE = 'RECENTCOMMENTS::SET_USER_PROFILE';
 
 
-export const getProfileState = () => {
+export const setUserProfile = (data) => {
     return {
-        type: GET_STATE
+        type: SET_USER_PROFILE,
+        data
     }
 }
 

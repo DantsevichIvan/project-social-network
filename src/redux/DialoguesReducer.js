@@ -1,4 +1,5 @@
-import {ADD_POST, GET_STATE, UPDATE_NEW_POST_TEXT} from "./Profile_Actoin";
+import {GET_STATE} from "./Dialogues_Actoin";
+
 
 const initState = {
     DialogsPage: {
