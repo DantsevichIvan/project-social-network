@@ -1,20 +1,32 @@
 import React, {Component} from 'react';
-// import logo from './logo.svg';
 import './App.css';
 import Header from "./Component/Header/Header";
 import Navbar from "./Component/Navbar/Navbar";
 import ProfileContainer from './Component/Profile/Component';
 import Dialogs from "./Component/Dialogs/Dialogs";
-import {Route} from "react-router-dom";
+import {Route, withRouter} from "react-router-dom";
 import News from "./Component/News/News";
 import Music from "./Component/Music/Music";
 import Settings from "./Component/Settings/Settings";
-// import {updateNewPostText} from "./State";
 import UsersContainer from "./Component/Users/UsersContainer";
+import Login from './Component/Login/LoginPage'
+import LogOut from "./Component/Login/LogOut";
+import {connect} from "react-redux";
+import {initializeApp} from "./redux/appReducer";
+import {compose} from "redux";
+import Preloader from "./Component/innerComponent/Preloader";
 
-const App = (props) => {
-    console.log(props)
-    return (
+
+class App extends Component {
+    componentDidMount() {
+        this.props.initializeApp()
+    }
+
+    render() {
+        if (!this.props.initealezed){
+            return <Preloader/>
+        }
+        return (
             <div className="app-wrapper">
                 <Header/>
                 <Navbar/>
@@ -26,9 +38,19 @@ const App = (props) => {
                     <Route path="/news" component={News}/>
                     <Route path="/music" component={Music}/>
                     <Route path="/settings" component={Settings}/>
+                    <Route path="/login" component={Login}/>
+                    <Route path="/logout" component={LogOut}/>
                 </div>
             </div>
-    );
+        );
 
-};
-export default App;
+    }
+}
+
+const mapStateToProps = (state) => ({
+    initealezed: state.app.initialized
+})
+
+export default compose(
+    withRouter,
+    connect(mapStateToProps, {initializeApp}))(App);

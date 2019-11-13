@@ -1,4 +1,5 @@
-import {ADD_POST, SET_USER_PROFILE, UPDATE_NEW_POST_TEXT} from "./Profile_Actoin";
+import {ADD_POST, SET_USER_PROFILE, setUserProfile, UPDATE_NEW_POST_TEXT} from "./Profile_Actoin";
+import {profileAPI} from "../api/api";
 
 const initState = {
     profile: null,
@@ -22,7 +23,6 @@ const initState = {
         }],
 };
 
-
 const ProfileReducer = (state = initState, action) => {
     switch (action.type) {
         case SET_USER_PROFILE : {
@@ -41,9 +41,9 @@ const ProfileReducer = (state = initState, action) => {
                 divi: 0
             };
             let stateCopy = {
-                    ...state,
-                    posts: [...state.posts, newPost],
-                    newPostText: ''
+                ...state,
+                posts: [...state.posts, newPost],
+                newPostText: ''
             };
             return stateCopy
         }
@@ -61,6 +61,8 @@ const ProfileReducer = (state = initState, action) => {
             }
     }
 };
-
-
+export const getUserProfile = (userId) => async (dispatch) => {
+    const data = await profileAPI.getUser(userId)
+    dispatch(setUserProfile(data))
+}
 export default ProfileReducer

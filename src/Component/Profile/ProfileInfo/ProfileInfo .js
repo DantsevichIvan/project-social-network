@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import s from './ProfileInfo.module.css';
 import Preloader from "../../innerComponent/Preloader";
-import userFototos from "../../../img/pngtree-users-vector-icon-png-image_3725294.jpg";
+import ImgPhoto from "../../innerComponent/imgPhoto";
 
 const ProfileInfo = (props) => {
     if(!props.profile){
@@ -10,12 +10,10 @@ const ProfileInfo = (props) => {
     return (
         <div className={s.mainImg}>
             <div className={s.userInfo}>
-
-                <img src={props.profile.photos.small === null? userFototos: props.profile.photos.small }/>
+                <ImgPhoto small={props.profile.photos.small}  />
                 <div>{props.profile.fullName}</div>
                 <div>{props.profile.aboutMe}</div>
             </div>
     </div>)
 };
-
 export default ProfileInfo;

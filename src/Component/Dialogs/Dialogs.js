@@ -5,11 +5,12 @@ import Chat from "./Messages/Messages";
 import {getProfileState} from "../../redux/Profile_Actoin";
 import {connect} from "react-redux";
 import {getDialoguesState} from "../../redux/Dialogues_Actoin";
+import {withAuthRedirect} from "../hoc/withAuthRedirect";
+import {compose} from "redux";
 // import Message from "./Messages/Messages";
 
 
 const Dialogs = (props) => {
-    debugger
     return (
         <div className={s.general_block}>
             <div className={s.heading}>
@@ -42,4 +43,9 @@ const mapDispatchToProps = (dispatch) => ({
     }
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Dialogs);
+
+
+export default compose(
+    connect(mapStateToProps, mapDispatchToProps),
+    withAuthRedirect
+)(Dialogs);

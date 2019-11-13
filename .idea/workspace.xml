@@ -2,17 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15bc5ded-854b-4e0f-bd4a-e2e84ded45a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/Profile/Component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/Preloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/FormsControls/FormControls.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/FormsControls/FormsControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/FormsControls/validators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Login/LogOut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Login/Login.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Login/LoginPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Users/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/hoc/withAuthRedirect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/imgPhoto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/imgPhoto.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/object-helpen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/pagesNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/appReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Dialogs/Dialogs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Profile/Component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/Component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Profile/Profile .js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/Profile .js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Profile/ProfileInfo/ProfileInfo .js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/ProfileInfo/ProfileInfo .js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Users/UsersContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/DialoguesReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/DialoguesReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/ProfileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ProfileReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Profile_Actoin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/Profile_Actoin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/UsersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/UsersReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +42,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -43,7 +62,8 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Component/Profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -60,11 +80,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ivan-dansevitch\project-big\react-project\src\redux" />
+      <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component" />
+      <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Login" />
       <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Profile" />
       <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Users" />
-      <recent name="C:\ivan-dansevitch\project-big\react-project\src\redux" />
-      <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Profile\AddPost" />
-      <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Profile\ProfileIntro" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,7 +149,19 @@
       <workItem from="1572277549281" duration="600000" />
       <workItem from="1572346105498" duration="18483000" />
       <workItem from="1572426183011" duration="6705000" />
-      <workItem from="1572513552977" duration="3920000" />
+      <workItem from="1572513552977" duration="18788000" />
+      <workItem from="1572597824030" duration="1231000" />
+      <workItem from="1572687519483" duration="2219000" />
+      <workItem from="1572703186347" duration="1199000" />
+      <workItem from="1572708984728" duration="5314000" />
+      <workItem from="1572772478556" duration="2310000" />
+      <workItem from="1572851570197" duration="5698000" />
+      <workItem from="1572946691505" duration="401000" />
+      <workItem from="1573051626419" duration="1904000" />
+      <workItem from="1573117615056" duration="2874000" />
+      <workItem from="1573120531134" duration="5480000" />
+      <workItem from="1573553392438" duration="7093000" />
+      <workItem from="1573642690131" duration="3810000" />
     </task>
     <servers />
   </component>

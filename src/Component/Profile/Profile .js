@@ -1,12 +1,6 @@
 import React from 'react';
 import s from './Profile.module.css';
-// import MyPost from "./MyPost/MyPost ";
 import ProfileInfo from "./ProfileInfo/ProfileInfo ";
-// import ProfileIntro from "./ProfileIntro/ProfileIntro ";
-// import AddPost from "./AddPost/AddPost";
-// import ProfilePhotos from "./ProfilePhotos/ProfilePhotos ";
-// import Friends from "./Friends/Friends";
-import PostContainer from "./MyPost/MyPost ";
 
 
 const Profile = (props) => {

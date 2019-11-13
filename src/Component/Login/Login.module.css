@@ -1,0 +1,20 @@
+.Wrapper {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.login input {
+    margin-bottom: 15px;
+}
