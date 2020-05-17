@@ -34,6 +34,7 @@ const UsersReducer = (state = initState, action) => {
             }
         }
         case SET_TOTAL_USERS_COUNT: {
+            debugger
             return {
                 ...state,
                 totalUsersCount: action.count
@@ -98,6 +99,7 @@ export const getUsers = (currentPage, pageSize) => async (dispatch) => {
     const data = await userAPI.getUsers(currentPage, pageSize);
     dispatch(toggleIsFetching(false));
     dispatch(setUsers(data.items));
+    debugger
     dispatch(setTotalUsersCount(data.totalCount));
 };
 const followUnfollowFlow = async (dispatch,userId, apiMethod, actionCreator) =>  {

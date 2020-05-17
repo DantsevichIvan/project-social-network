@@ -1,12 +1,12 @@
 import React from 'react'
-import PagesNumbers from "../innerComponent/pagesNumber";
+import Paginator from "../innerComponent/Paginator";
 import User from "./User";
 
 
 const Users = ({totalUsersCount, pageSize, currentPage, onPageChanged, users, followingInProgress, unfollow, follow}) => {
     return(
         <div>
-            <PagesNumbers totalUsersCount={totalUsersCount} pageSize={pageSize} currentPage={currentPage}
+            <Paginator totalItemsCount={totalUsersCount} pageSize={pageSize} currentPage={currentPage}
                           onPageChanged={onPageChanged}/>
             {
                 users.map(u => <div key={u.id}>

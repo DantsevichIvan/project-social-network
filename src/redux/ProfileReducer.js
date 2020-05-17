@@ -62,6 +62,7 @@ const ProfileReducer = (state = initState, action) => {
     }
 };
 export const getUserProfile = (userId) => async (dispatch) => {
+    debugger
     const data = await profileAPI.getUser(userId)
     dispatch(setUserProfile(data))
 }

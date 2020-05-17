@@ -2,38 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15bc5ded-854b-4e0f-bd4a-e2e84ded45a3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Component/FormsControls/FormControls.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/FormsControls/FormsControls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/FormsControls/validators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Login/LogOut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Login/Login.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Login/LoginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/Users/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/hoc/withAuthRedirect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/imgPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/imgPhoto.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/object-helpen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/pagesNumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/appReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/auth-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/Profile/ProfileIntro/ProfileData .js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/hoc/withSuspense.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/Paginator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Component/innerComponent/Paginator.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Dialogs/Dialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Component/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Navbar/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Profile/Component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/Component.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Profile/Profile .js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/Profile .js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Profile/ProfileInfo/ProfileInfo .js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/ProfileInfo/ProfileInfo .js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Profile/ProfileIntro/ProfileIntro .js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Users/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Users/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Users/Users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Users/Users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Component/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/Users/UsersContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/innerComponent/imgPhoto.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/innerComponent/imgPhoto.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/innerComponent/pagesNumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/ProfileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/ProfileReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/UsersReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/UsersReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,11 +49,16 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1Skvq8zu32UhXllfMjjTEoWRbXQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -70,10 +66,10 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.eslint" value="C:\ivan-dansevitch\project-big\react-project\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../Program Files/nodejs/node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -87,19 +83,27 @@
       <recent name="C:\ivan-dansevitch\project-big\react-project\src\Component\Users" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -113,6 +117,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -161,24 +167,71 @@
       <workItem from="1573117615056" duration="2874000" />
       <workItem from="1573120531134" duration="5480000" />
       <workItem from="1573553392438" duration="7093000" />
-      <workItem from="1573642690131" duration="3810000" />
+      <workItem from="1573642690131" duration="5021000" />
+      <workItem from="1573720915559" duration="7107000" />
+      <workItem from="1573751621548" duration="5596000" />
+      <workItem from="1573818421175" duration="1880000" />
+      <workItem from="1573994619385" duration="8077000" />
+      <workItem from="1574248347923" duration="24000" />
+      <workItem from="1575455361361" duration="150000" />
+      <workItem from="1576506606467" duration="1404000" />
+      <workItem from="1576670571544" duration="1332000" />
+      <workItem from="1576746897699" duration="1213000" />
+      <workItem from="1578255024941" duration="582000" />
+      <workItem from="1579094949185" duration="3524000" />
+      <workItem from="1581348295159" duration="1227000" />
+      <workItem from="1581405992952" duration="6915000" />
+      <workItem from="1582204681847" duration="404000" />
+      <workItem from="1589538145455" duration="1420000" />
+      <workItem from="1589628380494" duration="865000" />
+      <workItem from="1589649820359" duration="598000" />
+      <workItem from="1589722204752" duration="132000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1576747677157">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1024.779@0.0.1280.680" timestamp="1576747677157" />
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom" timestamp="1581437682214">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1024.779@0.0.1280.680" timestamp="1581424600039" />
+    <state width="1003" height="195" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1024.779@1920.0.1024.779" timestamp="1579095524380" />
+    <state width="1259" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1581437682214" />
+    <state width="1259" height="162" key="GridCell.Tab.0.center" timestamp="1581437682214">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1024.779@0.0.1280.680" timestamp="1581424600038" />
+    <state width="1003" height="195" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1024.779@1920.0.1024.779" timestamp="1579095524380" />
+    <state width="1259" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1581437682214" />
+    <state width="1259" height="162" key="GridCell.Tab.0.left" timestamp="1581437682214">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1024.779@0.0.1280.680" timestamp="1581424600038" />
+    <state width="1003" height="195" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1024.779@1920.0.1024.779" timestamp="1579095524380" />
+    <state width="1259" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1581437682214" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right" timestamp="1581437682214">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1024.779@0.0.1280.680" timestamp="1581424600039" />
+    <state width="1003" height="195" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1024.779@1920.0.1024.779" timestamp="1579095524380" />
+    <state width="1259" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1581437682214" />
   </component>
 </project>

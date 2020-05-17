@@ -9,8 +9,8 @@ const User = ({item, followingInProgress, unfollow, follow}) => {
                 <span>
                     <NavLink to={'/profile/' + item.id}>
                         <div>
-                         <ImgPhoto small={item.photos.small}/>
-                    </div>
+                            <ImgPhoto small={item.photos.small}/>
+                        </div>
                     </NavLink>
                     <div>
                         {
